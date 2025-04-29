@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Gill Sans MT Pro', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background: #ffffff; /* Optional: match white background */
+}
+
+.v3_844 {
+  width: 393px;
+  height: 852px;
+  background: rgba(0, 102, 51, 1);
+  overflow: hidden;
+  position: relative; /* Changed from absolute */
+}
+
+/* Button container: Modeartikel */
+.v3_860 {
+  width: 349px;
+  height: 74px;
+  background: url("../images/v3_860.png") no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 649px;
+  left: 22px;
+  overflow: hidden;
+}
+
+.v3_861 {
+  width: 349px;
+  height: 74px;
+  background: rgba(217, 217, 217, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.v3_862 {
+  width: 211px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px;
+  left: 69px;
+  font-weight: 500;
+  font-size: 26px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Button container: AR Feature */
+.v3_870 {
+  width: 349px;
+  height: 74px;
+  background: url("../images/v3_870.png") no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 532px;
+  left: 22px;
+  overflow: hidden;
+}
+
+.v3_871 {
+  width: 349px;
+  height: 74px;
+  background: rgba(217, 217, 217, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.v3_872 {
+  width: 192px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 20px;
+  left: 79px;
+  font-weight: 500;
+  font-size: 26px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.v18_12 {
+  width: 171px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 63px;
+  left: 111px;
+  font-weight: 500;
+  font-size: 40px;
+  text-align: left;
+}
+
+.v25_27 {
+  width: 457px;
+  height: 257px;
+  background: url("../images/v25_27.png") no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 195px;
+  left: 32px;
+  overflow: hidden;
+}
+
+/* Status bar + UI details */
+.v81_50,
+.v81_51,
+.v81_52 {
+  width: 393px;
+  height: 44px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.v81_50 {
+  background: rgba(255, 255, 255, 1);
+}
+.v81_51 {
+  background: rgba(0, 0, 0, 1);
+}
+.v81_52 {
+  background: rgba(247, 247, 247, 1);
+  top: 1px;
+}
+
+.v81_53 {
+  width: 24px;
+  height: 10px;
+  background: url("../images/v81_53.png") no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 17px;
+  left: 354px;
+}
+
+.v81_60 {
+  width: 18px;
+  height: 6px;
+  background: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: 1px;
+}
+
+.v81_70 {
+  width: 56px;
+  height: 18px;
+  background: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 13px;
+  left: 22px;
+}
+
+.v81_71 {
+  width: 57px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-family: 'SF Pro Text', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+}
+
+.v81_119 {
+  width: 86px;
+  height: 37px;
+  background: url("../images/v81_119.png") no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 63px;
+  left: 8px;
+}
+
+.v81_120 {
+  width: 86px;
+  height: 37px;
+  background: rgba(217, 217, 217, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.v81_121 {
+  width: 40px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 10px;
+  left: 23px;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: left;
+}
+
+/* Optional: fix .name class if needed */
+.name {
+  color: #fff;
+}

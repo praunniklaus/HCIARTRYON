@@ -1,54 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Virtual Try-On – AR Experience</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Helvetica Neue', sans-serif;
-      background-color: #f7f7f7;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-    }
-    h1 {
-      margin-bottom: 1rem;
-    }
-    .preview {
-      margin-bottom: 1rem;
-    }
-    .ar-link {
-      text-decoration: none;
-      padding: 1rem 2rem;
-      background-color: #007bff;
-      color: white;
-      border-radius: 6px;
-      font-size: 1.1rem;
-    }
-    .ar-link:hover {
-      background-color: #0056b3;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Model AR Viewer</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
 <body>
+  <h1>View Your 3D Models in AR</h1>
 
-  <h1>👓 Virtual Try-On Experience</h1>
-  <img class="preview" src="preview.png" alt="3D model preview" width="200" />
+  <p>Click a link below to view the model in Augmented Reality (AR):</p>
 
-  <!-- Android -->
-  <a class="ar-link" href="intent://arvr.google.com/scene-viewer/1.0?file=https://yourusername.github.io/web-ar-tryon/model.glb&mode=ar_only#Intent;scheme=https;package=com.google.ar.core;action=android.intent.action.VIEW;end;" rel="ar" target="_blank">
-    Try It On (Android)
+  <!-- AR Button for Statue -->
+  <a rel="ar" href="statue.usdz">
+    <button>Show Statue in AR</button>
   </a>
 
-  <br><br>
-
-  <!-- iOS -->
-  <a class="ar-link" href="model.usdz" rel="ar">
-    Try It On (iOS)
+  <!-- AR Button for Cap -->
+  <a rel="ar" href="HSGCap.usdz">
+    <button>Show Cap in AR</button>
   </a>
 
 </body>
